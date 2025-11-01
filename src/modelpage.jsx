@@ -47,7 +47,7 @@ const ModelPage = () => {
       <div className="model-top-container">
         <div>
           <img className="model-logo-img" 
-              src={`/src/data/${model.name}.svg`}
+              src={`/data/${model.name}.svg`}
               alt={model.name}
             />
           <p>{model.description}</p>

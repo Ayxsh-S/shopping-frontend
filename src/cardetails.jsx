@@ -91,7 +91,7 @@ const CarDetails = ( {addToCart} ) => {
         {moreImages.length > 1 && (
           <div className="car-more-images-container">
             <img className="logo-img" 
-              src={`/src/data/${car.modelName}.svg`}
+              src={`/data/${car.modelName}.svg`}
               alt={car.name}
             />
             <motion.img
@@ -145,7 +145,7 @@ const CarDetails = ( {addToCart} ) => {
         <div className="car-text">
           <div className="p-container">
           <img className="secondary-img" 
-              src={`/src/data/${car.modelName}.svg`}
+              src={`/data/${car.modelName}.svg`}
               alt={car.name}
             />
             
