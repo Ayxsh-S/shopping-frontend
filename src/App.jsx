@@ -83,17 +83,17 @@ function App() {
          whileTap={{ scale: 0.9 }}
          onClick={() => setShowSidebar(true)}
         >
-          <img className='svg' src='/src/images/menu-svgrepo-com.svg' alt='menu' /><p className='menu'>Menu</p>
+          <img className='svg' src='/images/menu-svgrepo-com.svg' alt='menu' /><p className='menu'>Menu</p>
         </motion.button>
         <title>Porsche</title>
-        <Link className='main-link' to="/"><img src="/src/images/LOGO.png" alt="Porsche Logo" className='logo' /></Link>
+        <Link className='main-link' to="/"><img src="/images/LOGO.png" alt="Porsche Logo" className='logo' /></Link>
         <motion.button 
          className='header-btn'
           whileHover={{ scale: 1.1, rotate: 2 }}
           whileTap={{ scale: 0.9, rotate: -2 }}
          onClick={() => setShowSearch(true)}
          >
-          <img className='svg' src='/src/images/search-right-1507-svgrepo-com.svg' alt='search' />
+          <img className='svg' src='/images/search-right-1507-svgrepo-com.svg' alt='search' />
         </motion.button>
         <AnimatePresence>
               {showSidebar && (
